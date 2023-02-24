@@ -1,0 +1,45 @@
+footer {
+  background: #1e1e1e;
+  padding: 0 75px;
+  .container {
+    display: flex;
+    hr {
+      width: 4px;
+      height: 110px;
+      background: #ff9900;
+      margin: 0 35px;
+    }
+    li {
+      list-style: none;
+      text-decoration: none;
+    }
+    ul {
+      display: flex;
+    }
+    p {
+      font-weight: 400;
+      margin-bottom: 20px;
+      font-size: 20px;
+      line-height: 23px;
+      color: #ff9900;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      p {
+        margin: 0;
+        font-weight: 500;
+      }
+      .footer-logo-icon {
+        display: inline-block;
+        width: 27px;
+        height: 25px;
+        background: url("../../images/footer-logo-icon.svg");
+      }
+    }
+    .textcols {
+      width: 48%;
+    }
+  }
+}
