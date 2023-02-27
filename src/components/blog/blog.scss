@@ -1,17 +1,13 @@
 .blog {
   margin-bottom: 70px;
-  .more-text {
-    max-width: 356px;
-  }
   .nav-blog {
     margin-bottom: 80px;
     ul {
       display: flex;
-      justify-content: space-between;
-      width: 60%;
       li {
         list-style: none;
         text-decoration: none;
+        margin-right: 1vw;
         p {
           font-weight: 400;
           font-size: 1.3vw;
