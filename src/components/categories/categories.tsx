@@ -72,13 +72,13 @@ function Categories() {
         <div className='categories-cards'>
           <div className='cards'>
             {createCard(require('../../images/new-smartphones.png'), 'Смартфоны', '4599')}
-            {createCard(require('../../images/new-smartphones.png'), 'Смартфоны', '4599')}
-            {createCard(require('../../images/new-smartphones.png'), 'Смартфоны', '4599')}
-            {createCard(require('../../images/new-smartphones.png'), 'Смартфоны', '4599')}
-            {createCard(require('../../images/new-smartphones.png'), 'Смартфоны', '4599')}
-            {createCard(require('../../images/new-smartphones.png'), 'Смартфоны', '4599')}
-            {createCard(require('../../images/new-smartphones.png'), 'Смартфоны', '4599')}
-            {createCard(require('../../images/new-smartphones.png'), 'Смартфоны', '4599')}
+            {createCard(require('../../images/cables.png'), 'Кабели и зарядки', '4599')}
+            {createCard(require('../../images/covers.png'), 'Чехлы', '4599')}
+            {createCard(require('../../images/headphones.png'), 'Наушники', '4599')}
+            {createCard(require('../../images/laptops.png'), 'Ноутбуки', '4599')}
+            {createCard(require('../../images/smartwatch.png'), 'Смарт-часы', '4599')}
+            {createCard(require('../../images/speakers.png'), 'Колонки', '4599')}
+            {createCard(require('../../images/tablets.png'), 'Планшеты', '4599')}
           </div>
         </div>
       </div>

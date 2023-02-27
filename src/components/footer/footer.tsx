@@ -65,12 +65,8 @@ function Footer() {
         </div>
         <hr />
         <div>
-          <div className='textcols'>
-            <p>Акции</p>
-          </div>
-          <div className='textcols'>
-            <p>Блог</p>
-          </div>
+          <p>Акции</p>
+          <p>Блог</p>
         </div>
       </div>
     </footer>

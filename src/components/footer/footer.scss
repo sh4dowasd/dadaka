@@ -2,31 +2,32 @@ footer {
   background: #1e1e1e;
   padding: 0 75px;
   .container {
-    display: flex;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 0.1fr 0.01fr 0.23fr 0.01fr 0.2fr 0.01fr 0.2fr;
     hr {
       width: 4px;
       height: 110px;
       background: #ff9900;
-      margin: 0 35px;
+      margin: 0 1vw;
     }
     li {
       list-style: none;
       text-decoration: none;
     }
     ul {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
     }
     p {
       font-weight: 400;
-      margin-bottom: 20px;
-      font-size: 20px;
+      font-size: 0.7vw;
       line-height: 23px;
       color: #ff9900;
     }
     .logo {
       display: flex;
       align-items: center;
-      margin-bottom: 20px;
       p {
         margin: 0;
         font-weight: 500;
@@ -39,7 +40,14 @@ footer {
       }
     }
     .textcols {
-      width: 48%;
+      //width: 50%;
+      display: flex;
+      padding-top: 10px;
+      flex-direction: column;
+      justify-content: left;
+      li {
+        text-align: left;
+      }
     }
   }
 }

@@ -14,14 +14,14 @@
         text-decoration: none;
         p {
           font-weight: 400;
-          font-size: 32px;
+          font-size: 1.3vw;
           line-height: 38px;
           color: #3d3d3d;
           cursor: pointer;
         }
         .active {
           font-weight: 500;
-          font-size: 32px;
+          font-size: 1.3vw;
           line-height: 38px;
           color: #000000;
           border-bottom: 2px solid #000000;
@@ -41,19 +41,19 @@
       padding: 45px 35px 22px 40px;
       h2 {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 1.6vw;
         line-height: 47px;
         margin-bottom: 26px;
       }
       .text {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 0.7vw;
         line-height: 30px;
         margin-bottom: 20px;
       }
       .date {
         font-weight: 700;
-        font-size: 32px;
+        font-size: 1.3vw;
         line-height: 38px;
       }
     }
@@ -67,7 +67,7 @@
         margin-bottom: 50px;
       }
       .text {
-        font-size: 32px;
+        font-size: 1.3vw;
         line-height: 38px;
         color: #ffffff;
         margin-bottom: 50px;
