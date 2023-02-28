@@ -14,18 +14,18 @@
     border-radius: 35px;
     padding: 30px 30px;
     filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.2));
-    border-radius: 35px;
     color: #ffffff;
     .set-info {
       h2 {
         font-weight: 700;
-        font-size: 1.7vw;
+        font-size: 2em;
         line-height: 47px;
         margin-bottom: 26px;
+        white-space: nowrap;
       }
       p {
         font-weight: 400;
-        font-size: 1.2vw;
+        font-size: 1.5em;
         line-height: 38px;
         color: #3D3D3D;
 
@@ -43,7 +43,7 @@
           p {
             font-family: "Geometria", sans-serif;
             font-weight: 600;
-            font-size: 0.8vw;
+            font-size: 1em;
             line-height: 28px;
             color: #FFFFFF;
             margin: 0;
